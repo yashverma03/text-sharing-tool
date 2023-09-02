@@ -1,3 +1,67 @@
+body {
+  margin: 10px;
+  padding: 5px;
+  background-color: #f9f9f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.article-title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.article-author {
+  color: #777;
+  font-size: 14px;
+  text-align: right;
+}
+
+.article-content {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 300px;
+  margin: 10px;
+  padding: 5px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin: 10px;
+  padding: 5px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+  margin: 10px;
+  padding: 5px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #custom-menu {
   position: absolute;
   display: none;
@@ -5,5 +69,59 @@
   border: 1px solid #ccc;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  z-index: 9999;
+}
+
+#custom-menu button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#twitter-share {
+  background-color: #007BFF;
+}
+
+#twitter-share:hover {
+  background-color: #0056b3;
+}
+
+#close-menu {
+  background-color: grey;
+}
+
+#close-menu:hover {
+  background-color: #555;
+}
+
+.article-footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+  #article {
+    padding: 10px;
+  }
+
+  .article-title {
+    font-size: 24px;
+  }
+
+  .article-author {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
 }
