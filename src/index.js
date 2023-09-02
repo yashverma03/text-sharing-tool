@@ -1,4 +1,3 @@
-const article = document.getElementById('article');
 const customMenu = document.getElementById('custom-menu');
 const twitterShareButton = document.getElementById('twitter-share');
 const closeMenuButton = document.getElementById('close-menu');
